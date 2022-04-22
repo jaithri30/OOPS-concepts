@@ -1,0 +1,29 @@
+public String Encap
+{
+private String name;
+private int id;
+public String getname()
+{
+return name;
+}
+public int getid()
+{
+return id;
+}
+public void setname(String name)
+{
+thid.name=name;
+public void setid(int id)
+{
+this.id=id;
+}
+public static void main(string args[])
+{
+encap e=new encap();
+e.setname("AA");
+encap e2=new encap();
+e2.setid(530);
+System.out.print(e.getname());
+System.out.println(e2.getid());
+}
+}
